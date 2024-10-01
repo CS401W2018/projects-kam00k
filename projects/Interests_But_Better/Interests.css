@@ -1,0 +1,51 @@
+@font-face{
+	font-family: Logger, Helvetica, sans-serif;
+	src: url('logger.regular.tff') format('truetype');
+}
+
+body{
+	background-color: #223D14;
+	font-family: Georgia, serif;
+}
+
+h1, h2{
+	font-family: Logger;
+	color: #8FD36A;
+
+}
+
+#idEx{
+	color: #5B8F3F;
+
+}
+
+
+a:link{
+	color: #5B8F3F;
+
+}
+
+a:visited{
+	color: #73A197;
+}
+
+a:hover{
+	color: #C8E7B7;
+}
+
+#first {
+	color: #8FD36A;
+	
+}
+
+.highContrast {
+	color: #B1DA9B;
+}
+
+.lowContrast {
+	color: #5B8F3F;
+}
+.bigger{
+	font-size: 24pt;
+}
+
