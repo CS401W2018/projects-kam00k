@@ -1,0 +1,22 @@
+body{
+
+	background-color: #AF614E;
+	font-family:Arial, Helvetica, sans-serifs;
+}
+
+#first {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.bigger{
+	font-size: 24pt;
+}
+
+.picture{
+	width: 600px;
+	height: 400px;
+}
