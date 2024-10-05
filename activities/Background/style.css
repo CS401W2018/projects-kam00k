@@ -1,0 +1,9 @@
+body{
+
+	background-color: #3B827A;
+	font-family:Arial, Helvetica, sans-serifs;
+	background-image: url("oldMan.jpg"),url("tilton.jpg");
+	background-size: 200px 300px, 200px 300px; 	
+	background-repeat: no-repeat, no-repeat;
+	background-position: 400px 100px, 630px 100px;
+}
