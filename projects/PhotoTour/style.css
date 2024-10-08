@@ -33,6 +33,10 @@ a:hover{
 	color: #C8E7B7;
 }
 
+.highlighted{
+	background-color: #FFFFFF;
+}
+
 .white{
 	color: #FFFFFF;
 }
