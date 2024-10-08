@@ -1,0 +1,43 @@
+
+body{
+	background-image: url("keswickpano.jpg");
+	background-color: #385A58;
+	font-family: Georgia, serif;
+	color: #133936;
+}
+
+h1, h2{
+	font-family: Georgia, serif;
+	color: #133936;
+
+}
+
+.bgpic{
+	background-image: url("duddon.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	list-style-image: url("sign.png");
+}
+
+
+a:link{
+	color: #0E2B2B;
+
+}
+
+a:visited{
+	color: #425D5D;
+}
+
+a:hover{
+	color: #C8E7B7;
+}
+
+.white{
+	color: #FFFFFF;
+}
+
+.black{
+	color: #000000;
+}
+
