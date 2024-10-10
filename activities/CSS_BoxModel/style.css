@@ -1,0 +1,35 @@
+
+body{
+	
+	font-family: Georgia, serif;
+
+}
+
+header{
+	background-color:rgb(98,117,133);
+	width: 70%;
+	margin: 30px auto;
+	padding: 50px 30px 50px 3px;
+	text-align: center;
+}
+
+header h1{
+	
+}
+
+main{
+	background-color: #
+}
+
+nav {
+	background-color: #AAAAAA;
+	height: 100px;
+	border: 3px solid blue;
+	padding: 10px;
+}
+
+figure{
+	border: 3px solid blue;
+	width: 1024px;
+	text-align: center;
+}
