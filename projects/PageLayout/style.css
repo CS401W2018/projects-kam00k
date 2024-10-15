@@ -1,66 +1,99 @@
 
 body{
 	font-family: Georgia, serif;
-	background-color: #AAA;
+	background-color: #9CBED2;
 }
 
 #wrapper{
 	background-color: #FFF;
 	max-width: 900px;
 	margin: auto;
+	border-radius: 30px;
 }
 header{
-	background-color:rgb(98,117,133);
+	background-color: #1F4A63;
 	width: 50%;
-	margin: 30px auto;
-	padding: 20px 20px 20px 20px;
+	margin: 10px auto;
+	padding: 10px 10px 10px 10px;
 	text-align: center;
-	
+	border-radius: 10px;
+	font-size: 18pt;
+	color: #FFF;
+	border: 3px solid #1D114F;
+	box-shadow: -5px 5px 5px #1F4A63;
+	text-shadow: -10px 10px #4B7690;
 }
 
 nav {
 	text-align: center;
-	height: 200px;
-	width: 800px;
-	border: 3px solid blue;
+	width: 820px;
+	height: 130px;
+	border: 3px solid #062538;
 	margin: auto;
+	border-radius: 7px;
+	background-color: #4B7690;
 }
 
 
 nav a{
-	display: block;
-	display: inline;
-	padding: 10px 10px;
-	background-color: blue;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	background-color: #1F4A63;
+	border-radius:5px;
 	color: white;
-	border-bottom: thin solid white;
-	width: 150px;
-	height: 20px;
+	width: 220px;
+	font-style: italic;
+	font-weight: 600;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: auto;
 }
 
 nav a:hover{
-	color:blue;
+	color: #1F4A63;
 	background-color:white;
+	text-transform: uppercase;
+}
+
+main p{
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 20px;
 }
 
 figure{
-	border: 3px solid blue;
-	width: 1024px;
+	
+	width: 900px;
 	text-align: center;	
 }
 
 #surfpic{
-	width: 500px;
+	width: 400px;
 	border: thin solid black;
 	float: right;
 }
 
 #surfpic img{
-		width: 500px;
+		width: 400px;
 }
 
 .clear{
 	clear: both;
 }
 
+footer{
+	background-image: url("module.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-clip: content-box;
+	max-width: 840px;
+	margin: auto;
+}
+
+footer p{
+	max-width: 900px;
+	padding: 40px 10px 40px 10px;
+	margin: auto;
+	line-height: 30px;
+}
