@@ -1,0 +1,66 @@
+
+body{
+	font-family: Georgia, serif;
+	background-color: #AAA;
+}
+
+#wrapper{
+	background-color: #FFF;
+	max-width: 900px;
+	margin: auto;
+}
+header{
+	background-color:rgb(98,117,133);
+	width: 50%;
+	margin: 30px auto;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	
+}
+
+nav {
+	text-align: center;
+	height: 200px;
+	width: 800px;
+	border: 3px solid blue;
+	margin: auto;
+}
+
+
+nav a{
+	display: block;
+	display: inline;
+	padding: 10px 10px;
+	background-color: blue;
+	color: white;
+	border-bottom: thin solid white;
+	width: 150px;
+	height: 20px;
+	margin: auto;
+}
+
+nav a:hover{
+	color:blue;
+	background-color:white;
+}
+
+figure{
+	border: 3px solid blue;
+	width: 1024px;
+	text-align: center;	
+}
+
+#surfpic{
+	width: 500px;
+	border: thin solid black;
+	float: right;
+}
+
+#surfpic img{
+		width: 500px;
+}
+
+.clear{
+	clear: both;
+}
+
