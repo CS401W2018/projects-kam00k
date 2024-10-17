@@ -1,0 +1,33 @@
+
+body{
+	
+	font-family: Georgia, serif;
+
+}
+
+header{
+
+}
+
+
+.container{
+	background-color: cadetblue;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+	width: 300px;
+
+}
+
+.item{
+	background-color: lightblue;
+	border: thin solid #000;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.clear{
+	clear: both;
+}
+
