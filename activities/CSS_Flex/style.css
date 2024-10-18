@@ -1,0 +1,35 @@
+
+body{
+	
+	font-family: Georgia, serif;
+
+}
+
+header{
+
+}
+
+
+.container{
+	background-color: cadetblue;
+	padding: 5px;
+	gap: 5px;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.item{
+	background-color: lightblue;
+	padding: 10px 5px;
+	border: thin solid #000;
+	height: 50px;
+	text-align: left;
+	line-height: 50px;
+	width: 200px;
+}
+
+.clear{
+	clear: both;
+}
+
