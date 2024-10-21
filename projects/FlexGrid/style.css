@@ -1,0 +1,62 @@
+
+body{
+	
+	font-family: Georgia, serif;
+
+}
+
+header{
+
+}
+
+nav a{
+	display: block;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	background-color: cadetblue;
+	margin: 10px 10px 10px 10px;
+	gap: 5px;
+	padding: 5px;
+	
+}
+
+.container{
+	background-color: cadetblue;
+	padding: 5px;
+	gap: 5px;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.item{
+	background-color: lightblue;
+	padding: 10px 5px;
+	border: thin solid #000;
+	height: 50px;
+	text-align: left;
+	line-height: 50px;
+	width: 200px;
+}
+
+footer a{
+	display: block;
+}
+
+.footContain{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-color: lightblue;
+	margin: 10px 10px 10px 10px;
+	gap: 5px;
+	padding: 5px;
+}
+
+.clear{
+	clear: both;
+}
+
