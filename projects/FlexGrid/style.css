@@ -1,12 +1,10 @@
 
 body{
-	
 	font-family: Georgia, serif;
-
 }
 
 header{
-
+	
 }
 
 nav a{
@@ -37,11 +35,20 @@ nav {
 	background-color: lightblue;
 	padding: 10px 5px;
 	border: thin solid #000;
-	height: 50px;
+	height: 300px;
 	text-align: left;
-	line-height: 50px;
-	width: 200px;
+	line-height: 15px;
+	width: 300px;
 }
+
+.mySides{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+
 
 footer a{
 	display: block;
@@ -51,12 +58,17 @@ footer a{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	background-color: lightblue;
-	margin: 10px 10px 10px 10px;
+	margin: 0px 10px 0px 10px;
 	gap: 5px;
 	padding: 5px;
+}
+
+.aside{
+	padding: 0px 10px 0px 10px;
 }
 
 .clear{
 	clear: both;
 }
+
 
