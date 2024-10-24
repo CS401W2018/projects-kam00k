@@ -1,0 +1,55 @@
+
+body{
+	font-family: Georgia, serif;
+	margin:0;
+}
+
+nav{
+	display: none;
+}
+
+header {
+	background-color: rgb(77,77,135);
+	color: #FFF;
+}
+header h1{
+	margin: 0;
+}
+
+.chesler{
+	
+	
+}
+
+.chesler img{
+	width: 100%;
+	box-shadow: 3px 3px 3px black;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card{
+	width: 300px;
+	border: thin solid black;
+	padding: 10px 10px 5px 10px;
+	box-shadow: 3px 3px 3px black:
+}
+
+.card img{
+	width:100%;
+}
+
+footer a{
+	display: block;
+}
+
+
+.clear{
+	clear: both;
+}
+
+
