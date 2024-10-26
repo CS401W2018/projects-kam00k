@@ -1,0 +1,79 @@
+
+body{
+	font-family: Georgia, serif;
+	margin:0;
+}
+
+header {
+	background-color: rgb(77,77,135);
+	color: #FFF;
+}
+header h1{
+	margin: 0;
+}
+nav{
+	display:flex;
+	justify-content: space-around;
+}
+.chesler{
+	
+	
+}
+
+.chesler img{
+	width: 100%;
+	box-shadow: 3px 3px 3px black;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card{
+	width: 300px;
+	border: thin solid black;
+	padding: 10px 10px 5px 10px;
+	box-shadow: 3px 3px 3px black:
+}
+
+.card img{
+	width:100%;
+}
+
+footer a{
+	display: block;
+}
+
+
+.clear{
+	clear: both;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		background-color: #333;
+		color: #FFF;
+	}
+	
+	nav{
+		flex-direction: column;
+		
+	}
+	nav a{
+		display: block;
+		border-bottom: thin solid #FFF;
+		width: 200px;
+		margin: auto;
+		text-align: center;
+	}
+	.row{
+		flex-direction: column;
+	}
+	
+	.card{
+		width: 100%;
+		margin: 10px 10px;
+	}
+}
