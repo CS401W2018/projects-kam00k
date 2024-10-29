@@ -1,42 +1,98 @@
 
 body{
 	font-family: Georgia, serif;
-	margin:0;
+	background-color: #999;
 }
 
 header {
 	background-color: rgb(77,77,135);
 	color: #FFF;
+	text-align: center;
 }
 header h1{
 	margin: 0;
 }
 nav{
+	line-height: 30px;
 	display:flex;
 	justify-content: space-around;
-}
-.chesler{
-	
+	background-color: #708EA4;
+
 	
 }
 
-.chesler img{
-	width: 100%;
-	box-shadow: 3px 3px 3px black;
+nav a{
+	display: block;
+	width: 20%;
+	border: thin solid white;
+	margin: auto;
+	text-align: center;
 }
 
-.row{
+.bothSections{
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 }
 
+.bothSections h2{
+	line-height: 50px;
+	display: block;
+	background-color: #486D88;
+}
+
+.sideTitle{
+	width: 30%;
+	text-align: center;
+	margin: 0px 10px;
+}
+
+.sidecard{
+	min-width: 200px;
+	margin: auto;
+	text-align: left;
+}
+
+.sidecard img{
+	width: 100%;
+
+}
+
+figure{
+	padding: 3px 3px 3px 3px;
+	margin: 0px 3px 3px 3px;
+	border: thin solid black;
+	text-align: left;
+	background-color: #BBB;
+}
+
+main{
+	width: 70%;
+	margin: 0px 0px 50px 50px;
+	text-align: center;
+}
+
+.otherCards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: left;
+}
+
 .card{
-	width: 300px;
+	max-width: 400px;
+	min-width: 200px;
 	border: thin solid black;
 	padding: 10px 10px 5px 10px;
-	box-shadow: 3px 3px 3px black:
+	box-shadow: 3px 3px 3px black;
+	margin: 0px 10px 10px 10px;
+	background-color: #DDD;
 }
+
+
+
+
+
 
 .card img{
 	width:100%;
@@ -51,25 +107,57 @@ footer a{
 	clear: both;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
 
 	nav{
-		
-		
+		flex-direction: column;
+		width: 200px;
+		line-height: 30px;
+		display:flex;
+		justify-content: space-around;
+		margin: auto;
 	}
 	nav a{
 		display: block;
-		border-bottom: thin solid #FFF;
 		width: 200px;
 		margin: auto;
 		text-align: center;
 	}
-	.row{
+
+	.bothSections{
+		flex-direction: column-reverse;
+	}
+	
+	.sideTitle{
+	width: 90%;
+	margin: auto;
+
+	}
+
+	.sidecard img{
+		width: 100%;
+		
+	}
+	
+	main{
+		margin: auto;
+	}
+
+	.otherTitle{
+		width: 90%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.otherCards{
+		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
+		text-align: left;
 	}
 	
 	.card{
-		width: 100%;
-		margin: 10px 10px;
+		width: 90%;
+		margin: 10px auto;
 	}
 }

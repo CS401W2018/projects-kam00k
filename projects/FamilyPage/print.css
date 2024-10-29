@@ -15,28 +15,45 @@ header {
 header h1{
 	margin: 0;
 }
-
-.chesler{
-	
-	
+.bothSections{
+	flex-direction: column-reverse;
 }
 
-.chesler img{
+.sideTitle{
+width: 90%;
+margin: 0px 0px 40px 0px;
+
+}
+
+.sidecard img{
 	width: 100%;
-	box-shadow: 3px 3px 3px black;
+
 }
 
-.row{
+
+.otherTitle{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.otherCards{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: left;
 }
 
 .card{
-	width: 300px;
+	
+}
+
+
+.card{
+	width: 90%;
 	border: thin solid black;
 	padding: 10px 10px 5px 10px;
-	box-shadow: 3px 3px 3px black:
+	margin: 10px auto;
 }
 
 .card img{
