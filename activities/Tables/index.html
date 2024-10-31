@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+	<header>
+		<h1>Inverters</h1>
+	</header>
+	<nav>
+	
+	</nav>
+	<main>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Manuf.</th><th>Model</th><th>Breaker Needed</th><th>Power(kW)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="4">240v Single-Phase</td>
+				</tr>
+				<tr>
+					<td>SolarEdge</td><td>SE10000H-US</td><td rowspan='2'>40A</td><td>10.0</td>
+				</tr>
+				<tr>
+					<td>SolarEdge</td><td>SE11400H-US</td><td>11.4</td>
+				</tr>
+				<tr>
+					<td colspan="4">208v Three-Phase</td>
+				</tr>
+				<tr>
+					<td>SolarEdge</td><td>SE9KUS</td><td>40A</td><td>9.0</td>
+				</tr>
+				<tr>
+					<td>SolarEdge</td><td>SE14.4KUS</td><td>50A</td><td>14.4</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="3" id="total-cost">Total Cost</th>
+					<td headers="total-cost">A Lot.</td>
+				</tr>
+			</tfoot>
+		</table>
+	</main>
+	<footer>
+		<p>
+			&copy; Jack Wilson's Table Emporium
+		</p>
+	</footer>
+</body>
+</html>
