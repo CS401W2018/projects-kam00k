@@ -1,0 +1,30 @@
+table, th, td{
+	border: 1px solid;
+}
+
+th, td{
+	background-color: white;
+}
+
+table{
+	background-color: Green;
+	margin: auto;
+}
+
+h1{
+	margin: auto;
+	text-align: center
+}
+
+tfoot th, thead th{
+	background-color: blue;
+	color: #FFF;
+}
+
+tbody tr:nth-child(odd) td{
+	background-color:cyan;
+}
+
+tbody tr:nth-child(even) td{
+	background-color:magenta;
+}
