@@ -1,13 +1,8 @@
-table, th, td{
-	border: 1px solid;
-}
 
-th, td{
-	background-color: white;
-}
+
 
 table{
-	background-color: Green;
+	background-color: green;
 	margin: auto;
 }
 
@@ -21,10 +16,20 @@ tfoot th, thead th{
 	color: #FFF;
 }
 
+tfoot td{
+	background-color: white;
+}
+
+
 tbody tr:nth-child(odd) td{
 	background-color:cyan;
 }
 
 tbody tr:nth-child(even) td{
-	background-color:magenta;
+	background-color:navy;
+	color: #FFF;
+}
+
+table, th, td{
+	border: 1px solid black;
 }
