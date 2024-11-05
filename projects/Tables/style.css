@@ -1,0 +1,168 @@
+
+body{
+	font-family: Georgia, serif;
+	background-color: #DDD;
+}
+
+header {
+	background-color: #365B32;
+	color: #FFF;
+	text-align: center;
+	line-height: 80px;
+	width: 500px;
+	margin: auto;
+}
+
+header h1{
+	margin: 0;
+}
+
+nav{
+	margin: 20px;
+	line-height: 30px;
+	display:flex;
+	justify-content: space-around;
+	background-color: #78A473;
+}
+
+nav a{
+	display: block;
+	width: 20%;
+	border: thin solid white;
+	margin: auto;
+	text-align: center;
+}
+
+.bothSections{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.bothSections h2{
+	line-height: 50px;
+	display: block;
+	background-color: #365B32;
+	color: white;
+}
+
+.sideTitle{
+	width: 25%;
+	text-align: center;
+	margin: 0px 10px;
+}
+
+.sidecard{
+	min-width: 200px;
+	margin: auto;
+	text-align: left;
+}
+
+main{
+	width: 75%;
+	margin: 0px 0px 50px 50px;
+	text-align: center;
+}
+
+table{
+	background-color: black;
+	margin: auto;
+	line-height: 30px;
+	font-size: 16pt;
+}
+
+caption{
+	text-align: left;
+	caption-side: bottom;
+}
+h1{
+	margin: auto;
+	text-align: center
+}
+
+table th td, table tr td{
+	width: 200px;
+	height: 50px;
+}
+
+tfoot th, thead th{
+	background-color: #428A3A;
+	color: #FFF;
+	height: 50px;
+}
+
+tfoot td{
+	background-color: white;
+}
+
+
+tbody tr:nth-child(odd) td{
+	background-color:white;
+}
+
+tbody tr:nth-child(even) td{
+	background-color:#7CDD72;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+.clear{
+	clear: both;
+}
+
+@media screen and (max-width: 700px){
+
+	nav{
+		flex-direction: column;
+		width: 200px;
+		line-height: 30px;
+		display:flex;
+		justify-content: space-around;
+		margin: auto;
+	}
+	nav a{
+		display: block;
+		width: 200px;
+		margin: auto;
+		text-align: center;
+	}
+
+	.bothSections{
+		flex-direction: column-reverse;
+	}
+	
+	.sideTitle{
+	width: 90%;
+	margin: auto;
+
+	}
+
+	.sidecard img{
+		width: 100%;
+		
+	}
+	
+	main{
+		margin: auto;
+	}
+
+	.otherTitle{
+		width: 90%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.otherCards{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		text-align: left;
+	}
+	
+	.card{
+		width: 90%;
+		margin: 10px auto;
+	}
+}
