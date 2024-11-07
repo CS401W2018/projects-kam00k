@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media = "screen">
+    <title>Forms</title>
+</head>
+<body>
+	<header>
+		<h1>Forms? Forms.</h1>
+	</header>
+	<nav>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>	
+	</nav>
+	<main>
+		<form action="processing.html" method="post">
+			First Name: <input type="text" name="first" placeholder="Jack"><br>
+			Last Name: <input type="text" name="last" placeholder="Wilson"><br>
+			Password: <input type="password" name="pw">
+			<input type="submit"><br>
+			Choice 1 <input type="radio" name="radio1"><br>
+			Choice 2 <input type="radio" name="radio1"><br>
+			Reset Button<input type="reset"><br>
+			Chekhov's Chekbox <input type="checkbox"><br>
+			Select from List 
+			<select name"Things" id="things">
+				<option value="lead pipe">Lead Pipe</option>
+				<option value="candlestick">Candlestick</option>
+				<option value="knife">Knife</option>
+				<option value="poison">Poison</option>
+				<option value="pistol">Pistol</option>
+			</select>
+			
+			
+		</form>
+		
+		<ol>
+			<li>The action attribute points to a webpage that the form is associated with for when the form is submitted.</li>
+			<li>The method attribute determines how the information entered into the form will be handled by the webserver.</li>
+			<li>GET is a request for information from a server, while POST adds to or changes information in a server.</li>
+		</ol>
+	</main>
+	<footer>
+		<p>
+			&copy; Jack Wilson's Form Machine
+		</p>
+	</footer>
+</body>
+</html>
