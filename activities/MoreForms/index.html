@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media = "screen">
+    <title>Forms</title>
+</head>
+<body>
+	<header>
+		<h1>Forms? Forms.</h1>
+	</header>
+	<nav>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>	
+	</nav>
+	<main>
+		<form action="processing.html" method="post">
+			<fieldset>
+			<legend>Sign Up</legend>
+			<div class="formRow">
+				<label for="fname">First Name:</label>
+				<input id="fname" type="text" name="first" placeholder="Jack">
+			</div>
+			<div class="formRow">
+				<label for="lname">Last Name:</label>
+				<input id="lname" type="text" name="last" placeholder="Wilson">
+			</div>
+			<div class="formRow">
+				<label for="fname">Password: </label>
+				<input type="password" name="pw">
+			</div>
+			
+			<div class="formRow">
+				<div class="spacer"></div>
+				<input type="submit">
+			</div>
+			<div class="formRow">	
+				<label for="rad1">Choice 1 </label><input type="radio" name="radio1">
+			</div>
+			<div class="formRow">	
+				<label for="rad2">Choice 2 </label><input type="radio" name="radio1">
+			</div>
+			<div class="formRow">	
+				<label for="resetbtn">Reset Button</label>
+				<input type="reset">
+			</div>
+			<div class="checkRow">	
+				<div class="spacer"></div>
+				<label for="fname">
+					<input type="checkbox">
+					Chekhov's Chekbox
+				</label>
+			</div>	
+			<div class="formRow">	
+				<label for="fname">Select from List</label> 
+				
+				<select name="things" id="things">
+					<option value="lead pipe">Lead Pipe</option>
+					<option value="candlestick">Candlestick</option>
+					<option value="knife">Knife</option>
+					<option value="poison">Poison</option>
+					<option value="pistol">Pistol</option>
+				</select>
+			
+			</div>
+			</fieldset>
+			
+		</form>
+		
+		<ol>
+			<li>The action attribute points to a webpage that the form is associated with for when the form is submitted.</li>
+			<li>The method attribute determines how the information entered into the form will be handled by the webserver.</li>
+			<li>GET is a request for information from a server, while POST adds to or changes information in a server.</li>
+		</ol>
+	</main>
+	<footer>
+		<p>
+			&copy; Jack Wilson's Form Machine
+		</p>
+	</footer>
+</body>
+</html>
