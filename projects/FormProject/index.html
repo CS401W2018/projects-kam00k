@@ -8,19 +8,12 @@
 </head>
 <body>
 	<header>
-		<h1>More Forms? More Forms.</h1>
+		<h1>Forms of Choices</h1>
 	</header>
-	<nav>
-		<a href="#">link</a>
-		<a href="#">link</a>
-		<a href="#">link</a>
-		<a href="#">link</a>
-		<a href="#">link</a>	
-	</nav>
 	<main>
 		<form action="processing.html" method="post">
 			<fieldset>
-			<legend>Sign Up</legend>
+			<legend>Order Form</legend>
 			<div class="formRow">
 				<label for="fname">First Name:</label>
 				<input id="fname" type="text" name="first" placeholder="Jack">
@@ -30,57 +23,77 @@
 				<input id="lname" type="text" name="last" placeholder="Wilson">
 			</div>
 			<div class="formRow">
-				<label for="pw">Password: </label>
-				<input type="password" name="pw">
+				<label for="password">Password: </label>
+				<input type="password" name="password" id="password">
 			</div>
 			<div class="formRow">
-				<div class="spacer"></div>
-				<input type="submit">
+				<label for="email">Email Address: </label>
+				<input type="email" name="email" id="email">
+			</div>
+			<div class="formRow">
+				<label for="date">Date of Birth </label>
+				<input type="date" name="date" id="date">
 			</div>
 			<div class="formRow">	
-				<label for="rad1">Choice 1 </label><input type="radio" name="radio1">
+				<label for="things">Select The Color You Want</label> 
+				<select name="things" id="things">
+					<option value="Red">Red</option>
+					<option value="Blue">Blue</option>
+					<option value="Yellow">Yellow</option>
+					<option value="Purple">Purple</option>
+					<option value="Ochre">Ochre</option>
+					<option value="Invisible">Invisible</option>
+				</select>
 			</div>
 			<div class="formRow">	
-				<label for="rad2">Choice 2 </label><input type="radio" name="radio1">
+				<label for="Sizes">Select The Size You Want</label> 
+				<select name="Sizes" id="Sizes">
+					<option value="Big">Big</option>
+					<option value="Small">Small</option>
+					<option value="Medium">Medium</option>
+					<option value="Extra Medium">Extra Medium</option>
+					<option value="Micro">Micro</option>
+					<option value="Giga">Giga</option>
+					<option value="Vast">Vast</option>
+				</select>
+			</div>
+			<div class="checkRow">
+				<div class="spacer">Cupholder?</div>
+				<div>
+					<input type="radio" name="radio1" id="rad1">
+					<label for="rad1">Include</label>
+					<br>
+					<input type="radio" name="radio1" id="rad2">
+					<label for="rad2">Do not include</label>
+				</div>
 			</div>
 			<div class="formRow">	
-				<label for="resetbtn">Reset Button</label>
+				<label for="reset">Reset Button</label>
 				<input type="reset">
 			</div>
-			<div class="checkRow">	
-				<div class="spacer"></div>
-				<label for="chkbx">
-					<input type="checkbox" name = chkbx>
-					Chekhov's Chekbox
-					
-				</label>
-			</div>	
 			<div class="formRow">	
-				<label for="things">Select from List</label> 
-				
-				<select name="things" id="things">
-					<option value="lead pipe">Lead Pipe</option>
-					<option value="candlestick">Candlestick</option>
-					<option value="knife">Knife</option>
-					<option value="poison">Poison</option>
-					<option value="pistol">Pistol</option>
-				</select>
-			
+				<label for="textarea">Any special requests</label>
+				<textarea id="textarea" name="textarea" rows="6" cols="40"></textarea>
+			</div>
+			<div class="checkRow">	
+			<div class="spacer">Sign up for annoying emails?</div>
+				<div>
+				<input type="checkbox" name = "chkbx" id="chkbox" value="on" checked>
+				<label for="chkbox">Yes</label>
+				</div>
+			</div>	
+			<div class="formRow">
+				<div class="spacer"></div>
+				<input type="submit" value="Order Now">
 			</div>
 			</fieldset>
-			
 		</form>
-		
-		<ol>
-			<li>Form styling can involve things such as fieldsets, legends, flex or grid-based layouts, and all of the color, shadow,
-			border and font adjustments that come with them. They can also be given borders that shift color or style depending on which has focus.</li>
-			<li>Flex makes it easier to make webpages with forms work on both desktops and mobile devices.</li>
-		</ol>
 	</main>
 	<footer>
 		<p>
-			&copy; Jack Wilson's Enhanced Form Machine
+			&copy; Jack Wilson's <br> Enhanced Form Machine
 		</p>
+		
 	</footer>
 </body>
 </html>
