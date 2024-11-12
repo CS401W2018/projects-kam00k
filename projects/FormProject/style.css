@@ -1,0 +1,72 @@
+
+nav{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: space-around;
+}
+
+fieldset {
+	box-shadow: 3px 3px 3px rgba(20,20,20,0.5);
+	background-color: aquamarine;
+	width: 600px;
+	margin: auto;
+}
+
+legend {
+	border: thin solid #000;
+	background-color: grey;
+	color: white;
+}
+
+.checkRow{
+	display:flex;
+	gap:10px;
+	margin-top: 10px;
+}
+.spacer{
+	width: 150px;
+}
+
+.formRow {
+	display: flex;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.formRow label {
+	width: 150px;
+	text-align: right;
+}
+table{
+	background-color: green;
+	margin: auto;
+}
+
+h1{
+	margin: auto;
+	text-align: center
+}
+
+tfoot th, thead th{
+	background-color: blue;
+	color: #FFF;
+}
+
+tfoot td{
+	background-color: white;
+}
+
+
+tbody tr:nth-child(odd) td{
+	background-color:cyan;
+}
+
+tbody tr:nth-child(even) td{
+	background-color:navy;
+	color: #FFF;
+}
+
+table, th, td{
+	border: 1px solid black;
+}

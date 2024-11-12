@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media = "screen">
+    <title>Forms</title>
+</head>
+<body>
+	<header>
+		<h1>More Forms? More Forms.</h1>
+	</header>
+	<nav>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>	
+	</nav>
+	<main>
+		<form action="processing.html" method="post">
+			<fieldset>
+			<legend>Sign Up</legend>
+			<div class="formRow">
+				<label for="fname">First Name:</label>
+				<input id="fname" type="text" name="first" placeholder="Jack">
+			</div>
+			<div class="formRow">
+				<label for="lname">Last Name:</label>
+				<input id="lname" type="text" name="last" placeholder="Wilson">
+			</div>
+			<div class="formRow">
+				<label for="pw">Password: </label>
+				<input type="password" name="pw">
+			</div>
+			<div class="formRow">
+				<div class="spacer"></div>
+				<input type="submit">
+			</div>
+			<div class="formRow">	
+				<label for="rad1">Choice 1 </label><input type="radio" name="radio1">
+			</div>
+			<div class="formRow">	
+				<label for="rad2">Choice 2 </label><input type="radio" name="radio1">
+			</div>
+			<div class="formRow">	
+				<label for="resetbtn">Reset Button</label>
+				<input type="reset">
+			</div>
+			<div class="checkRow">	
+				<div class="spacer"></div>
+				<label for="chkbx">
+					<input type="checkbox" name = chkbx>
+					Chekhov's Chekbox
+					
+				</label>
+			</div>	
+			<div class="formRow">	
+				<label for="things">Select from List</label> 
+				
+				<select name="things" id="things">
+					<option value="lead pipe">Lead Pipe</option>
+					<option value="candlestick">Candlestick</option>
+					<option value="knife">Knife</option>
+					<option value="poison">Poison</option>
+					<option value="pistol">Pistol</option>
+				</select>
+			
+			</div>
+			</fieldset>
+			
+		</form>
+		
+		<ol>
+			<li>Form styling can involve things such as fieldsets, legends, flex or grid-based layouts, and all of the color, shadow,
+			border and font adjustments that come with them. They can also be given borders that shift color or style depending on which has focus.</li>
+			<li>Flex makes it easier to make webpages with forms work on both desktops and mobile devices.</li>
+		</ol>
+	</main>
+	<footer>
+		<p>
+			&copy; Jack Wilson's Enhanced Form Machine
+		</p>
+	</footer>
+</body>
+</html>
