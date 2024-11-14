@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<h1>Forms? Forms.</h1>
+		<h1>This Form Does Processing Things</h1>
 	</header>
 	<nav>
 		<a href="#">link</a>
@@ -18,7 +18,7 @@
 		<a href="#">link</a>	
 	</nav>
 	<main>
-		<form action="processing.html" method="post">
+		<form action="processing.html" method="post" id="myForm">
 			<fieldset>
 			<legend>Sign Up</legend>
 			<div class="formRow">
@@ -30,8 +30,8 @@
 				<input id="lname" type="text" name="last" placeholder="Wilson">
 			</div>
 			<div class="formRow">
-				<label for="fname">Password: </label>
-				<input type="password" name="pw">
+				<label for="password">Password: </label>
+				<input type="password" name="pw" id="password">
 			</div>
 			
 			<div class="formRow">
@@ -39,10 +39,12 @@
 				<input type="submit">
 			</div>
 			<div class="formRow">	
-				<label for="rad1">Choice 1 </label><input type="radio" name="radio1">
+				<label for="rad1">Choice 1 </label>
+				<input type="radio" name="radio1">
 			</div>
 			<div class="formRow">	
-				<label for="rad2">Choice 2 </label><input type="radio" name="radio1">
+				<label for="rad2">Choice 2 </label>
+				<input type="radio" name="radio1">
 			</div>
 			<div class="formRow">	
 				<label for="resetbtn">Reset Button</label>
@@ -72,9 +74,10 @@
 		</form>
 		
 		<ol>
-			<li>The action attribute points to a webpage that the form is associated with for when the form is submitted.</li>
-			<li>The method attribute determines how the information entered into the form will be handled by the webserver.</li>
-			<li>GET is a request for information from a server, while POST adds to or changes information in a server.</li>
+			<li>JavaScript is a programming language created by Sun Microsystems as a competitor for programming on webservers.</li>
+			<li>JS can be run in the D.O.M. (Document Object Model), i.e. in the browser, or through Node.js</li>
+			<li>JQuery was the most popular front-end JS library.</li>
+			<li>React is now the most popular front-end JS library.</li>
 		</ol>
 	</main>
 	<footer>
@@ -82,5 +85,22 @@
 			&copy; Jack Wilson's Form Machine
 		</p>
 	</footer>
+	<script>
+		document.getElementById('myForm').addEventListener('submit',function(event){
+			event.preventDefault();
+			const firstName = document.getElementById('fname').value;
+			const lastName = document.getElementById('lname').value;
+			const formData = {
+				firstName: firstName,
+				lastName: lastName
+			}
+			if (!firstName || !lastName){
+				alert("First name and last name required!")
+				return;
+			}
+			console.log(formData);
+			alert("You Submitted The Form!");
+		})
+	</script>
 </body>
 </html>
