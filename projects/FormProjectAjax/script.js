@@ -4,15 +4,22 @@ document.getElementById("myForm").addEventListener("submit", function(event){
     const firstName = document.getElementById('fname').value;
     const lastName = document.getElementById('lname').value;
     const age = document.getElementById('age').value;
+	const email = document.getElementById('email').value;
 
     const formData = {
         firstName: firstName,
         lastName: lastName,
-        age: age
+        age: age,
+		email: email
     }
 	
 	if (!firstName || !lastName){
 		alert("Please enter your full name")
+		return;
+	}
+	
+	if (!email){
+		alert("Please enter your email address")
 		return;
 	}
 	
