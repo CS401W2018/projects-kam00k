@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media = "screen">
+    <title>Forms</title>
+</head>
+<body>
+	<header>
+		<h1>Forms of Choices</h1>
+	</header>
+	<main>
+		<form action="processing.html" method="get" id="myForm">
+			<fieldset>
+			<legend id="legend">Order Form</legend>
+			<div class="formRow">
+				<label for="fname">First Name:</label>
+				<input id="fname" type="text" name="first" placeholder="Jack">
+			</div>
+			<div class="formRow">
+				<label for="lname">Last Name:</label>
+				<input id="lname" type="text" name="last" placeholder="Wilson">
+			</div>
+			<div class="formRow">
+				<label for="age">Age: </label>
+				<input type="number" name="age" id="age">
+			</div>
+			<div class="formRow">
+				<label for="email">Email Address: </label>
+				<input type="email" name="email" id="email">
+			</div>
+			<div class="formRow">
+				<label for="date">Date of Birth </label>
+				<input type="date" name="date" id="date">
+			</div>
+			<div class="formRow">	
+				<label for="things">Select The Color You Want</label> 
+				<select name="things" id="things">
+					<option value="Red">Red</option>
+					<option value="Blue">Blue</option>
+					<option value="Yellow">Yellow</option>
+					<option value="Purple">Purple</option>
+					<option value="Ochre">Ochre</option>
+					<option value="Invisible">Invisible</option>
+				</select>
+			</div>
+			<div class="formRow">	
+				<label for="Sizes">Select The Size You Want</label> 
+				<select name="Sizes" id="Sizes">
+					<option value="Big">Big</option>
+					<option value="Small">Small</option>
+					<option value="Medium">Medium</option>
+					<option value="Extra Medium">Extra Medium</option>
+					<option value="Micro">Micro</option>
+					<option value="Giga">Giga</option>
+					<option value="Vast">Vast</option>
+				</select>
+			</div>
+			<div class="checkRow">
+				<div class="spacer">Cupholder?</div>
+				<div>
+					<input type="radio" name="radio1" id="rad1">
+					<label for="rad1">Include</label>
+					<br>
+					<input type="radio" name="radio1" id="rad2">
+					<label for="rad2">Do not include</label>
+				</div>
+			</div>
+			<div class="formRow">	
+				<label for="reset">Reset Button</label>
+				<input type="reset">
+			</div>
+			<div class="formRow">	
+				<label for="textarea">Any special requests</label>
+				<textarea id="textarea" name="textarea" rows="6" cols="40"></textarea>
+			</div>
+			<div class="checkRow">	
+			<div class="spacer">Sign up for annoying emails?</div>
+				<div>
+				<input type="checkbox" name = "chkbx" id="chkbox" value="on" checked>
+				<label for="chkbox">Yes</label>
+				</div>
+			</div>	
+			<div class="formRow">
+				<div class="spacer"></div>
+				<input type="submit" value="Order Now">
+			</div>
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<p>
+			&copy; Jack Wilson's <br> Enhanced Form Machine
+		</p>
+		
+	</footer>
+	<script src="script.js">
+		
+	</script>
+</body>
+</html>
