@@ -35,6 +35,7 @@ document.getElementById("myForm").addEventListener("submit", function(event){
         if(xhr.readyState === 4 && xhr.status === 200){
             const response = JSON.parse(xhr.responseText);
             document.getElementById("legend").innerHTML = response.message;
+			document.getElementById("ecap").innerHTML = "";
         }
         else if(xhr.readyState === 4){
             alert('Error submitting form.');
