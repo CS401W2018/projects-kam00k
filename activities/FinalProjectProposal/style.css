@@ -1,0 +1,31 @@
+
+nav{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: space-around;
+	width: 800px;
+}
+
+fieldset {
+	margin: 20px auto;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 3px rgba(20,20,20,0.5);
+	background-color: aquamarine;
+	width: 800px;
+	
+}
+
+legend {
+	border: thin solid #000;
+	background-color: red;
+	color: white;
+}
+
+footer p{
+	text-align: center;
+}
+h1{
+	margin: auto;
+	text-align: center;
+}
