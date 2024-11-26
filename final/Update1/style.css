@@ -7,6 +7,11 @@
     src: url(slkscr.ttf);
 }
 
+.current{
+    background-color: #5c2c20;
+    color:#FFF
+}
+
 body {  
     background-color: #B28D8D;
     font-family: vt323, sans-serif;
