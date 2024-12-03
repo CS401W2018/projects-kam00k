@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media = "screen">
+    <title>PixelArt</title>
+</head>
+<body>
+    <div class="encap">
+        <header>
+            <div class="headaround">
+                <div class="headgif">
+                    <img src="b9-nbb.gif" alt="b9 drinking">
+                </div>
+                <h1>The World of PixelArt</h1>
+                <div class="headgif2">
+                    <img src="dotdot.gif" alt="dot-matrix printer robot companion">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <a class="single" href="index.html">Home</a>
+            <a href="whatis.html">What Is PixelArt?</a>
+            <a class="single" href="history.html">History</a>
+            <a href="makemyown.html">How do I make my own?</a>
+            <a href="commission.html">Commission Pricing</a>
+            <a class="currentSingle" href="quoteform.html">Get A Quote</a>
+        </nav>
+        <main> 
+            <div class="sidebar">
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+            </div>  
+
+            <div class="mainText">
+                <form action="processing.html" method="get" id="myForm">
+                    <fieldset>
+                        <legend id="legend">Contact Form</legend> 
+                    <div class="formRow">
+                        <label for="fname">Name or Internet Handle</label>
+                        <input id="fname" type="text" name="first">
+                    </div>
+                    <div class="formRow">
+                        <label for="email">Email Address </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="formRow">	
+                        <label for="Sizes">Image size</label> 
+                        <select name="Sizes" id="Sizes">
+                            <option value="S">Up to 16x16</option>
+                            <option value="M">16x16 to 32x32</option>
+                            <option value="L">32x32 - 64x64</option>
+                            <option value="XL">65x65+</option>
+                        </select>
+                    </div>
+                    <div class="formRow">	
+                        <label for="Sizes">Color Space</label> 
+                        <select name="Sizes" id="Sizes">
+                            <option value="S">Monochrome</option>
+                            <option value="M">Grayscale</option>
+                            <option value="L">1-32 colors</option>
+                            <option value="XL">33+ colors</option>
+                        </select>
+                    </div>
+                    <div class="formRow">	
+                        <label for="textarea">Any special requests? <br>Just want to say hi? <br>Type it here!</label>
+                        <textarea id="textarea" name="textarea" rows="6" cols="40"></textarea>
+                    </div>
+                    <div class="formRow">
+                        <div class="spacer"></div>
+                        <input type="submit" value="Send It!">
+                    </div>
+                    </fieldset>
+                </form>
+                <div id="message"></div>
+            </div>
+
+            <div class="sidebar">
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+                <div class="imgCont">
+                    <img class="pic" src="axe.png" alt="pic1">
+                </div>
+            </div> 
+        </main>
+        <footer>
+            &copy; Jack Wilson's Bing Bing Wahoo Emporium
+        </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

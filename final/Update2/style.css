@@ -1,0 +1,295 @@
+@font-face {
+    font-family: vt323;
+    src: url(VT323-Regular.ttf);
+}
+@font-face {
+    font-family: silkscreen;
+    src: url(slkscr.ttf);
+}
+
+.current{
+    background-color: #5c2c20;
+    color:#FFF;
+    
+}
+
+.currentSingle{
+    background-color: #5c2c20;
+    color:#FFF;
+    padding: 20px 0px 0px 0px;
+    height: 60px;
+}
+
+body {  
+    background-image: url("bg.png");
+    background-size: 512px 512px;
+    font-family: vt323, sans-serif;
+    image-rendering: pixelated;
+}
+
+.encap{
+    max-width: 1200px;
+    margin: auto;   
+}
+
+.headgif{
+    margin: auto;
+
+}
+
+.headgif img{
+    max-width: 200px;
+    height: auto;
+}
+
+.headgif2{
+    width:230px;
+    height:160px;
+    margin-top: 20px;
+}
+
+.headgif2 img{
+    max-width: 120px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.headaround{
+    padding: 0px 0px 10px 0px;
+    max-width: 1200px;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+
+header h1{
+    font-size: 50pt;
+    margin: auto;
+    width: 500px;
+    height: 160px;
+    text-align:center;
+    font-family: silkscreen, sans-serif;
+    background-color: #C84C0C;
+    color: #F8BDAD;
+    text-shadow: 3px 5px black;
+    border: 5px solid black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.single{
+    padding: 20px 0px 0px 0px;
+    height: 60px;
+}
+
+nav a{
+
+    font-size: 24pt;
+    display: block;
+    text-wrap: wrap;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    background-color: #C84C0C;
+    margin: 10px 10px 10px 10px;
+    color: #F8BDAD;
+    box-shadow: 3px 5px black;
+    
+
+}
+
+nav a:hover{
+    background-color: yellowgreen;
+    color: black;
+    box-shadow:none;
+}
+
+main{
+    display:flex;
+    flex-direction:row;
+
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:10px 10px; 
+    width: 30%;
+
+
+}
+
+.imgCont{
+
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 50px;
+}
+
+.pic{
+    width: 80%;
+    image-rendering: pixelated;
+    margin: 10% 10%;
+}
+
+.mainText{
+    font-size: 20pt;
+    display: block;
+    text-wrap: wrap;
+    max-width: 600px;
+    width: 80%;
+    background-color: #C84C0C;
+    margin: 20px auto;
+    color: #F8BDAD;
+    padding: 20px;
+    box-shadow: 3px 5px black;
+    border: 5px solid green;
+}
+
+.mainText h2{
+    text-align: center;
+}
+
+table{
+	background-color: black;
+    color: black;
+	margin: auto;
+    text-wrap: wrap;
+	line-height: 30px;
+	font-size: 16pt;
+}
+
+caption{
+	text-align: left;
+	caption-side: bottom;
+}
+
+table th td, table tr td{
+	width: 200px;
+	height: 50px;
+}
+
+tfoot th, thead th{
+	background-color: #428A3A;
+    font-size: 18pt;
+	color: #FFF;
+	height: 50px;
+}
+
+tfoot td{
+	background-color: white;
+}
+
+
+tbody tr:nth-child(odd) td{
+	background-color:white;
+}
+
+tbody tr:nth-child(even) td{
+	background-color:#7CDD72;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #6E3232;
+    background-color: #BA6C6C;
+    margin: 20px auto;
+    width: 350px;
+    padding: 10px 10px;
+    text-align: center;
+
+
+}
+
+/*Form-specific stuff*/
+
+fieldset {
+	box-shadow: 3px 3px 3px rgba(20,20,20,0.5);
+    border: thick solid #FFF;
+}
+
+legend {
+	border: thin solid #000;
+	background-color: grey;
+	color: white;
+}
+.spacer{
+	width: 150px;
+}
+.formRow {
+	display: flex;
+    flex-direction:column;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+input[type=submit] {
+	background-color: #C84C0C;
+	border: thick solid white;
+	color: white;
+	cursor: pointer;
+    font-size: 1em;
+	border-radius:3px;
+	padding: 4px;
+}
+
+#message{
+    text-align:center;
+}
+
+@media screen and (max-width: 1100px){
+    nav{
+        flex-direction: row;
+		flex-wrap: wrap;
+        max-width: 600px;
+		line-height: 30px;
+		display:flex;
+		margin: auto;
+	}
+
+    .headgif{
+        display:none;
+    }
+    
+    .headgif img{
+        display:none;
+    }
+    
+    .headgif2{
+
+        display:none;
+    }
+    
+    .headgif2 img{
+
+        display:none;
+    }
+
+    .sidebar{
+        display:none;
+    }
+
+    input[type="submit"]{
+		height: 50px;
+	}
+
+}
