@@ -164,6 +164,10 @@ main{
     border: 5px solid green;
 }
 
+.mainText img{
+    width:100%;
+}
+
 .mainText h2{
     text-align: center;
 }
